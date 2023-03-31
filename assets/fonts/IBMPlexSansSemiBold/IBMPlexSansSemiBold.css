@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'IBMPlexSansSemiBold';
+    src: url('fonts/IBMPlexSansSemiBold.eot');
+    src: url('fonts/IBMPlexSansSemiBold.eot') format('embedded-opentype'),
+         url('fonts/IBMPlexSansSemiBold.woff2') format('woff2'),
+         url('fonts/IBMPlexSansSemiBold.woff') format('woff'),
+         url('fonts/IBMPlexSansSemiBold.ttf') format('truetype'),
+         url('fonts/IBMPlexSansSemiBold.svg#IBMPlexSansSemiBold') format('svg');
+}

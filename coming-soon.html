@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Track your Order</title>
+    <link href="assets/img/favicon-32x32.png" rel="icon">
+    <link href="assets/css/styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <!-- Header Start here -->
+    <header role="banner" aria-label="OS1 Logo">
+      <a href="https://getos1.com" target="_blank">
+        <img src="./assets/img/os1-logo.svg" alt="logo">
+      </a>
+      </header>
+    <!-- Header end here -->
+
+    <div class="wrapper mobile-wrapper">
+
+        <h2 class="heading" aria-label="Track your Order">Track your Order</h2>
+
+        <div class="order-blank">
+            <div class="blank-img">
+                <img src="./assets/img/picked-up.svg" alt="">
+            </div>
+            <div class="content-blank">
+                <div class="orderid-text">Order ID #345213456</div>
+                <h3>Your order will be picked up soon</h3>
+                <p>We will let you know once the order is ready and picked up for delivery.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- footer Start here -->
+    <footer aria-label="Delhivery footer link">
+        <div class="footerCol">
+          <div class="colcustom">
+            <p aria-label="2022 Delhivery Group. All rights reserved.">© 2022 Delhivery Group. All rights reserved.</p>
+          </div>
+          <div class="colcustom">
+            <div class="footLinks" aria-label="Useful links">
+              <a href="https://getos1.com/general-terms" target="_blank" aria-label="Terms of Use">Terms of Use .</a>
+              <a href="https://getos1.com/terms" target="_blank" aria-label="Developer T&C ">Developer T&C .</a>
+              <a href="https://getos1.com/privacy" target="_blank" aria-label="Privacy">Privacy .</a>
+              <a href="https://getos1.com/cookie" target="_blank" aria-label="Cookies"> Cookies</a>
+            </div>
+          </div>
+          </div>
+      </footer>
+
+    <script src="assets/js/jquery-3.6.4.min.js"></script>
+
+    <script>
+    function footerAlign() {
+  $('footer').css('height', 'auto');
+  var footerHeight = $('footer').outerHeight();
+  $('body').css('padding-bottom', footerHeight);
+  $('footer').css('height', footerHeight);
+}
+    
+    </script>
+
+</body>
+
+</html>
